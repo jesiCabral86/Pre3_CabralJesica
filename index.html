@@ -14,25 +14,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
      <header class="row bg-secondary bg-opacity-25">
-       <div class="col-md-6 col-12 logo">
+       <div class="col-lg-6 col-12 logo">
        <img src="imgs/LogoProy.png" alt="logo">
        </div>
-       <div class="col-md-6 col-12 p-3 text-end">
-        <div class="dropdown">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           LINKS
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">HOME</a></li>
-            <li><a class="dropdown-item" href="pages/proyectos.html">Proyectos</a></li>
-            <li><a class="dropdown-item" href="pages/materiales.html">Materiales</a></li>
-            <li><a class="dropdown-item" href="pages/nosotros.html">Nosotros</a></li>
-            <li><a class="dropdown-item" href="pages/contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-        </div>
+       <!--NAV BAR-->
+       <div class="col-lg-6 col-12 p-3 text-end">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="pages/proyectos.html">Proyectos</a>
+                <a class="nav-link" href="pages/materiales.html">Materiales</a>
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
      </header>
      <main>
       <div class="row">
@@ -40,7 +45,7 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="imgs/edi0.jpg"d-block w-100" alt="img0">
+              <img src="imgs/edi0.jpg" class= "d-block w-100" alt="img0">
             </div>
             <div class="carousel-item">
               <img src="imgs/edi1.jpg" class="d-block w-100" alt="img1">
